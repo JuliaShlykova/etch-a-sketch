@@ -1,0 +1,48 @@
+body,html{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+#container{
+    display: grid;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -400px;
+    border: 1px dotted black;
+    box-shadow: 0 0 30px 10px rgb(61, 21, 21);
+}
+.squareDiv{
+    /*border:1px solid black;*/
+}
+.squareDivHover{
+    background-color: steelblue;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height: 80px;
+}
+#clearSet{
+    min-width:15vw;
+    height: 70%;
+    border:2px solid black;
+    background-color: rgb(61, 21, 21);
+    font-size: 2rem;
+    border-radius: 2vw;
+    color: white;
+}
+#clearSet:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    font-weight: bold;
+}
+#clearSet:focus{
+    border: none;
+    outline: none;
+}
